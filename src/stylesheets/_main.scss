@@ -43,8 +43,7 @@ body {
   #card-display-background {
     background-image: url("https://wallpapershome.com/images/pages/pic_h/5704.jpg");
     height: 100%;
-    left: 0px;
-    max-width: 1800px;
+    left: 0;
     opacity: 0.25;
     position: absolute;
     width: 100%;
@@ -53,9 +52,9 @@ body {
     &:before {
       content: "";
       height: inherit;
-      left: 0px;
+      left: 0;
       position: absolute;
-      top: 0px;
+      top: 0;
       width: inherit;
       z-index: 1;
     }
