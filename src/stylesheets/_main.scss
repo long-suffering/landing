@@ -102,9 +102,9 @@ body {
       &:last-of-type {
         transform: scale(0.85);
 
-        //.card {
-        //  background-color: $blue
-        //}
+        .card {
+          background-color: $blue
+        }
       }
 
       &:hover {
